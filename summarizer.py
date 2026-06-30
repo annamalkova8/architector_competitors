@@ -36,7 +36,8 @@ def _summarize_one(competitor: dict) -> str:
 
     response = client.responses.create(
         model=config.OPENAI_MODEL,
-        tools=[{"type": "web_search"}],
+        reasoning={"effort": "low"},
+        tools=[{"type": "web_search", "search_context_size": "low"}],
         input=prompt,
     )
 
