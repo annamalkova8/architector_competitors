@@ -31,7 +31,7 @@ COMPETITOR_PROMPT = """\
 CHANNEL_PROMPT = """\
     Below are messages from the Telegram channel @{channel} from the last {days} days.
     Write a short summary in Russian (3-5 sentences) of the main topics, trends, \
-    and key takeaways discussed. Be concise and informative. No bullet points, \
+    and key takeaways discussed only about medicine, health, aging. Be concise and informative. No bullet points, \
     just flowing text.
 
     Messages:
