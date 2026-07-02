@@ -28,7 +28,7 @@ OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.4-mini")
 # --- Competitors (existing) ---
 COMPETITORS = [
     {"name": "Peloton", "query_hint": "Peloton fitness platform (bike/treadmill/app)"},
-    {"name": "Decathlon Coach / Decathlon health", "query_hint": "Decathlon digital health or fitness coaching product"},
+    {"name": "Dacadoo", "query_hint": "Scientifically proven digital health technology software that benefits your business, customers, prospects, and employees."},
     {"name": "Whoop", "query_hint": "Whoop fitness/recovery wearable and app"},
     {"name": "Welltory", "query_hint": "Welltory HRV and health analytics app"},
     {"name": "Bevel", "query_hint": "Bevel health/recovery platform"},
