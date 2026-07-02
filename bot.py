@@ -28,8 +28,7 @@ logger = logging.getLogger(__name__)
 
 
 async def run_and_send(bot) -> None:
-    """Build the summary and send it. Shared by both trigger paths."""
-    text = summarizer.build_summary()
+    text = await summarizer.build_summary()  # was: summarizer.build_summary()
     await telegram_client.send_summary(bot, text)
 
 
